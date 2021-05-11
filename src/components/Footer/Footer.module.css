@@ -3,7 +3,7 @@
     width: 100%;
     min-height: 50px;
 
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: rgb(102, 9, 209);
     background-image: linear-gradient(
