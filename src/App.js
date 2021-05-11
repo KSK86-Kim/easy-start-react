@@ -1,9 +1,22 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import Container from './components/Container';
+import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
-        return <div></div>;
+        return (
+            <>
+                <Header />
+                <Main>
+                    <Container>123</Container>
+                    <Container>123</Container>
+                    <Container>123</Container>
+                </Main>
+                <Footer />
+            </>
+        );
     }
 }
 
