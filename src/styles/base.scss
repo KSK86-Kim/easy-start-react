@@ -26,3 +26,19 @@ h6 {
 p {
     margin-top: 0;
 }
+
+button {
+    border: none;
+    border-radius: 6px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+button:hover,
+button:focus {
+    color: black;
+    background-color: rgb(148, 154, 220);
+    cursor: pointer;
+}
