@@ -1,0 +1,16 @@
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter-label {
+    display: flex;
+width: 400px;
+justify-content: space-between;
+font-size: 16px;
+}
+
+.filter-input {    
+font-size: 20px;
+border: 1px solid blueviolet;
+border-radius: 10px;
+}

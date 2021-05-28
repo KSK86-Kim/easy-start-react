@@ -1,0 +1,13 @@
+.contact-list {
+    width: 500px;
+    font-size: 20px;
+}
+
+.contact-list > li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-list > li:not(:last-child) {
+    margin-bottom: 15px;
+}
