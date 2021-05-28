@@ -1,0 +1,14 @@
+.footer {
+    justify-content: space-between;
+    width: 100%;
+    min-height: 50px;
+
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(102, 9, 209);
+    background-image: linear-gradient(
+        to right,
+        rgba(224, 191, 2, 0.4),
+        rgba(0, 126, 175, 0.5)
+    );
+}

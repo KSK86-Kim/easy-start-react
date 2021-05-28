@@ -1,20 +1,30 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import './shared';
 
 body {
-    padding: 20px;
+    margin: 0;
+    background-color: $dark-blue;
+    color: $white;
+    line-height: 1.5;
+    font-family: $primary-font-stack;
 }
 
-section {
-    margin-bottom: 30px;
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 h1,
-h2 {
-    margin-bottom: 20px;
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+p {
+    margin-top: 0;
 }
 
 button {
